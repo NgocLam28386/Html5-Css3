@@ -1,0 +1,375 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+.container {
+    margin: auto;
+    width: full;
+    background-color: honeydew;
+}
+
+.menu li a {
+    text-decoration: none;
+    padding-right: 10px;
+    font-size: 26px;
+    color: aliceblue;
+}
+
+.font-size-16 {
+    font-size: 16px;
+}
+
+.hmenu {
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    width: 1200px;
+    margin: auto;
+}
+
+.logo {
+    font-size: 30px;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+}
+
+
+
+.font-bold {
+    font-weight: bold;
+}
+
+.tieude {
+    margin: auto;
+    width: 1200px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.far {
+    color: white;
+    font-size: 16px;
+
+}
+
+.col {
+
+    width: 1200px;
+    margin: auto;
+}
+
+.img {
+    width: 700px;
+    height: auto;
+    padding: 16px;
+    border-radius: 60px;
+}
+
+.colspan {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+}
+
+.tile {
+    font-size: 30px;
+    padding-top: 16px;
+}
+
+.conten {
+    font-size: 20px;
+    color: #6c757d;
+
+}
+
+.grid-cols-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 32px;
+}
+
+.font-size {
+    font-size: 20px;
+}
+
+.text-gray {
+    color: #6c757d;
+}
+
+.underline-none {
+    text-decoration: none;
+}
+
+.list-type {
+    list-style-type: none;
+}
+
+.py {
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.space-y {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.my {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.with-x {
+    width: 40px;
+}
+
+section {
+    width: 1200px;
+    margin: auto;
+    margin-top: 70px;
+
+}
+
+.text-center {
+    text-align: center;
+}
+
+.mx-auto {
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.grid-cols-4 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 32px;
+}
+
+.border {
+    border-radius: 40px;
+}
+
+.text-white {
+    color: aliceblue;
+}
+
+.font-size-40 {
+    font-size: 40px;
+}
+
+.border-img {
+    border-radius: 100%;
+}
+
+.border-sileder {
+    border-radius: 20px;
+}
+
+
+
+.set {
+    width: full;
+}
+
+
+
+.color-gray {
+    color: #6c757d;
+}
+
+
+
+.px {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.bg-blue-300 {
+    background-color: #1A374D;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.grid-cols-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 32px;
+}
+
+.kc {
+    width: 40px;
+    height: 30px;
+}
+
+.flex {
+    display: flex;
+}
+
+footer {
+    width: 1200px;
+    margin: auto;
+}
+
+.footer {
+    margin-top: 30px;
+    margin-bottom: 90px;
+}
+
+.my-xl {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.h-45 {
+
+    height: 45px;
+}
+
+.w-full {
+    width: 100%;
+}
+
+form {
+    width: 600px;
+}
+
+.h-150 {
+    height: 150px;
+}
+
+.font-size-30 {
+    font-size: 30px;
+}
+
+.bg-gray {
+    background-color: #6c757d;
+}
+
+.py-xl {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.px-xl {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.border-2 {
+    border-radius: 200px;
+}
+
+.w-200 {
+    width: 200px;
+}
+
+.mr-30 {
+    margin: 30px;
+}
+
+.py-2 {
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.font-size-50 {
+    font-size: 50px;
+}
+
+.postion {
+    position: absolute;
+
+}
+
+.postion-r {
+    position: relative;
+}
+
+.display-block {
+    display: block;
+}
+
+.p-8 {
+    padding-top: 36px;
+}
+
+.text-4xl {
+    width: 1200px;
+    margin: auto;
+}
+
+.m-x {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.w-4 {
+    width: 16px;
+}
+
+.pt-2 {
+    padding-top: 8px;
+}
+
+.text-black {
+    color: black;
+}
+
+.menu a:hover {
+    color: blue;
+}
+
+.text-red {
+    color: red;
+}
+
+.bg-white {
+    background-color: aliceblue;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.w-4 {
+    width: 160px;
+}
+
+.content2-product-1:hover {
+    filter: drop-shadow(0 20px 13px rgb(0 0 0 / 0.03)) drop-shadow(0 8px 5px rgb(0 0 0 / 0.08));
+    transition: ease-in 0.1s;
+}
+
+.tile:hover {
+    color: blue;
+}
+
+.space-y {
+    line-height: 1.7;
+}
+
+.mb {
+    margin-bottom: 70px;
+}
+
+article {
+    width: 1200px;
+    margin: auto;
+}
